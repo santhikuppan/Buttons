@@ -1,0 +1,31 @@
+body{
+    background-color: aqua;
+}
+button{
+    padding: 5px;
+    margin: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: .4s ease-in;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+.btn-1:hover{
+    box-shadow: inset -140px 0px 0px 0px red,inset 140px 0px 0px 0px red;
+}
+.btn-2:hover{
+    background-color: yellow;
+    box-shadow: 0px 0px 5px yellow,0px 0px 25px yellow,0px 0px 50px yellow,0px 0px 200px;
+}
+.btn-3:hover{
+    box-shadow: 10px 10px 0px red;
+    background-color: black;
+    color: white;
+}
+.btn-4:hover{
+    box-shadow: inset 2px 2px 2px red, inset 2px 2px 2px red;
+    background-color: black;
+    color: white;
+}
